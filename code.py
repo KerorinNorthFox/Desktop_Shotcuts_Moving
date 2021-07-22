@@ -1,10 +1,10 @@
 import os, shutil, glob, time
 
-ToPath = #move to folder
-FromPath = #move from desktop
+ToPath = #move to *folder path*
+FromPath = #move from *desktop path*
 def movesc():
     shortcuts = []
-    shortcuts = glob.glob('<Desktop full path>\\*lnk')
+    shortcuts = glob.glob('') #desktop full path + \\*lnk
     print(shortcuts)
     time.sleep(1)
     if len(shortcuts) != 0:
